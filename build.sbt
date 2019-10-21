@@ -6,7 +6,8 @@ scalaVersion := "2.12.8"
 
 scalaJSUseMainModuleInitializer := true
 
-// scalaJSModuleKind := ModuleKind.CommonJSModule
+scalaJSModuleKind := ModuleKind.CommonJSModule
+
 mainClass in Compile := Some("HelloWorldApp")
 
 moduleName in fullOptJS := "scalajs-cli-demo"
