@@ -1,8 +1,8 @@
-# Scala.js CLI demo [![Build Status](https://travis-ci.org/ScalaWilliam/scalajs-cli-demo.svg?branch=master)](https://travis-ci.org/ScalaWilliam/scalajs-cli-demo)
+# team-city-upsource-source-bridge [![Build Status](https://travis-ci.org/ScalaWilliam/scalajs-cli-demo.svg?branch=master)](https://travis-ci.org/ScalaWilliam/scalajs-cli-demo)
 
 > Publish Scala.js apps through NPM
 
-[![NPM](https://nodei.co/npm/scalajs-cli-demo.png?compact=true)](https://nodei.co/npm/scalajs-cli-demo/)
+[![NPM](https://nodei.co/npm/team-city-upsource-source-bridge.png?compact=true)](https://nodei.co/npm/team-city-upsource-source-bridge/)
 
 ## Rationale
  
@@ -27,12 +27,10 @@ by [Lawrence Daniels](https://github.com/ldaniels528).
 Use the pre-built npmjs package.
 
 ```
-$ npm install -g scalajs-cli-demo
-$ scalajs-cli-demo
-Hello world from Scala!
-----
-To demonstrate we're in Node, here's some of your environment:
-PATH = /home/...
+$ npm install -g team-city-upsource-source-bridge
+$ team-city-upsource-source-bridge
+TeamCityUpsourceSouthBridge
+Listening on port 63339
 ```
 
 ## Development
