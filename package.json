@@ -1,6 +1,6 @@
 {
   "name": "team-city-upsource-source-bridge",
-  "version": "0.4.2",
+  "version": "0.4.4",
   "description": "Helps to open TeamCity's source code links present in the Inspection report. This util opens them in Upsource. Please provide the Upsource base url in the UPSOURCE_URL environment variable.",
   "bin": {
     "team-city-upsource-source-bridge": "bin/team-city-upsource-source-bridge"
