@@ -1,4 +1,4 @@
-# team-city-upsource-source-bridge [![Build Status](https://travis-ci.org/ScalaWilliam/scalajs-cli-demo.svg?branch=master)](https://travis-ci.org/ScalaWilliam/scalajs-cli-demo)
+# team-city-upsource-source-bridge [![Build Status](https://travis-ci.org/scala-szeged/team-city-upsource-source-bridge.svg?branch=master)](https://travis-ci.org/scala-szeged/team-city-upsource-source-bridge)
 
 > Publish Scala.js apps through NPM
 
