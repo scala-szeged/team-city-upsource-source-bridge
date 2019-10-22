@@ -1,12 +1,12 @@
 {
   "name": "team-city-upsource-source-bridge",
-  "version": "0.4",
+  "version": "0.4.2",
   "description": "Helps to open TeamCity's source code links present in the Inspection report. This util opens them in Upsource. Please provide the Upsource base url in the UPSOURCE_URL environment variable.",
   "bin": {
-    "scalajs-cli-demo": "bin/scalajs-cli-demo"
+    "team-city-upsource-source-bridge": "bin/team-city-upsource-source-bridge"
   },
   "scripts": {
-    "prepublish": "sbt 'show fullOptJS' && cp target/scala-2.12/scalajs-cli-demo-opt.js ./lib/main.js",
+    "prepare": "sbt 'show fullOptJS' && cp target/scala-2.12/scalajs-bundler/main/team-city-upsource-source-bridge-opt.js ./lib/main.js",
     "test": "sbt test"
   },
   "repository": {
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/scala-szeged/team-city-upsource-source-bridge/issues"
   },
-  "homepage": "https://github.com/scala-szeged/team-city-upsource-source-bridge#readme"
+  "homepage": "https://github.com/scala-szeged/team-city-upsource-source-bridge#readme",
+  "dependencies": {
+    "open": "^6.0.0"
+  }
 }
