@@ -1,7 +1,7 @@
 {
-  "name": "scalajs-cli-demo",
-  "version": "1.0.4",
-  "description": "POC to see if we can publish ScalaJS apps on npmjs.",
+  "name": "team-city-upsource-source-bridge",
+  "version": "0.4",
+  "description": "Helps to open TeamCity's source code links present in the Inspection report. This util opens them in Upsource. Please provide the Upsource base url in the UPSOURCE_URL environment variable.",
   "bin": {
     "scalajs-cli-demo": "bin/scalajs-cli-demo"
   },
@@ -11,16 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ScalaWilliam/scalajs-cli-demo.git"
+    "url": "git+https://github.com/scala-szeged/team-city-upsource-source-bridge.git"
   },
   "keywords": [
+    "upsource",
+    "teamcity",
     "scalajs",
     "cli"
   ],
-  "author": "ScalaWilliam",
-  "license": "ISC",
+  "author": "Janos Seteny, Tigra Kft.",
+  "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/ScalaWilliam/scalajs-cli-demo/issues"
+    "url": "https://github.com/scala-szeged/team-city-upsource-source-bridge/issues"
   },
-  "homepage": "https://github.com/ScalaWilliam/scalajs-cli-demo#readme"
+  "homepage": "https://github.com/scala-szeged/team-city-upsource-source-bridge#readme"
 }
